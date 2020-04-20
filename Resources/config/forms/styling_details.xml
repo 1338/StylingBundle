@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<form xmlns="http://schemas.sulu.io/template/template"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/form-1.0.xsd"
+>
+    <key>styling_details</key>
+    <properties>
+        <property name="primaryColor" type="color" mandatory="true">
+            <meta>
+                <title>Primary Color</title>
+            </meta>
+        </property>
+        <property name="secondaryColor" type="color" mandatory="true">
+            <meta>
+                <title>Secondary Color</title>
+            </meta>
+        </property>
+    </properties>
+</form>

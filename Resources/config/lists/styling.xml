@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<list xmlns="http://schemas.sulu.io/list-builder/list">
+    <key>styling</key>
+    <properties>
+        <property name="id" visibility="always" sortable="true">
+            <field-name>id</field-name>
+            <entity-name>Sulu\Bundle\StylingBundle\Entity\Styling</entity-name>
+        </property>
+        <property name="Primary Color" visibility="always" searchability="yes" type="string" sortable="true">
+            <field-name>primaryColor</field-name>
+            <entity-name>Sulu\Bundle\StylingBundle\Entity\Styling</entity-name>
+        </property>
+        <property name="Secondary Color" visibility="always" searchability="yes" type="string" sortable="true">
+            <field-name>secondaryColor</field-name>
+            <entity-name>Sulu\Bundle\StylingBundle\Entity\Styling</entity-name>
+        </property>
+        <property name="Enabled" visibility="always" type="bool" sortable="true">
+            <field-name>enabled</field-name>
+            <entity-name>Sulu\Bundle\StylingBundle\Entity\Styling</entity-name>
+        </property>
+    </properties>
+</list>

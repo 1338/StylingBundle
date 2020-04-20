@@ -1,0 +1,20 @@
+{
+  "name": "sulu/styling-bundle",
+  "description": "Bundle for configuring styling",
+  "type": "sulu-bundle",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Max van der Sluis"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "sulu/sulu": "^2.0.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sulu\\Bundle\\StylingBundle\\": ""
+    }
+  }
+}
